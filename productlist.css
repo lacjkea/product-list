@@ -5,6 +5,7 @@ main {
 ul.breadcrumb {
   padding: 10px 16px;
   list-style: none;
+  grid-column: 1/-1;
 }
 ul.breadcrumb li {
   display: inline;
@@ -20,4 +21,10 @@ ul.breadcrumb li + li:before {
   padding: 1em;
   justify-content: center;
   align-items: center;
+  grid-column: 2/-1;
+}
+
+.image-fetched {
+  max-width: 40vw;
+  max-height: 40vw;
 }
