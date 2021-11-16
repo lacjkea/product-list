@@ -15,3 +15,9 @@ ul.breadcrumb li + li:before {
   color: black;
   content: "/\00a0";
 }
+.product-info {
+  background-color: #d6c5ed;
+  padding: 1em;
+  justify-content: center;
+  align-items: center;
+}
